@@ -98,6 +98,8 @@ ul li:hover {
     background-color: white;
     margin: 6px 0;
     transition: 650ms;
+    overflow: hidden;
+    transition: 600ms;
 }
 
 .open .bar1 {
@@ -131,6 +133,7 @@ ul li:hover {
     height: calc(100vh -50px);
     width: 100%;
     justify-content: flex-start;
+    transition: 600ms;
 }
 
 .mobile-menu li {
@@ -148,7 +151,5 @@ ul li:hover {
 
     #hamburger-icon {
         display: block;
-        transition: 1.5s;
-
     }
 }
